@@ -1,0 +1,106 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+  border: 0;
+}
+body {
+  color: #1e1d1d;
+  background-color: #fbfbfa;
+  font-family: 'Raleway', sans-serif;
+  margin: 0; border: 0;
+}
+header {
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+}
+
+section {
+  margin: 0;
+}
+
+
+/* CSS for Image banner */
+@media screen and (max-width: 525px) {
+  img {width: 18em !important;}
+  .navbar {display: none}
+}
+img {
+  width:30em;
+}
+.banner{
+  margin-bottom: 3em;
+}
+
+/* Font CSS  */
+h1 {
+    weight: 700;
+    font-size: 3em;
+    margin: .1em 0;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+h3 {
+  weight: 700;
+  font-size: 1.3em;
+  margin: .1em 0;
+}
+@media screen and (max-width: 600px) {
+  h1 {font-size: 2em;}
+  h2{font-size: 17px;}
+  .header{margin-top: 60px !important}
+}
+.text_recipe{
+  line-height: 1.5;
+}
+.heading{
+  margin-top: 60px !important;
+}
+/* General CSS */
+.text-center {
+  text-align: center !important;
+}
+
+.center-align{
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  margin-top: 90px;
+}
+.header_title {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+}
+header h1 {
+    color: black;
+}
+main {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+aside {
+    float: left;
+    width: 150px;
+}
+@media screen and (max-width: 550px) {
+  aside {float: none !important;}
+}
+
+#AboutDeveloper{
+  margin-left: 2em;
+  margin-right: 2em;
+}
