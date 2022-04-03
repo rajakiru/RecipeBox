@@ -11,6 +11,26 @@
 </head>
 
 <body>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="recipe_display"> View Recipes  </a>
+    <a href="recipe_manage"> Edit Recipes </a>
+    <a href="recipe_manage/?action=show_add_form"> Add Recipes </a>
+    <a href="#AboutDeveloper"> About Developer </a>
+</div>
+
+<ul class="ul_navbar menu" onclick="openNav()"> <li>&#9776;</li> </ul>
+
+<section class="navbar">
+    <ul class="ul_navbar" id="navmenu">
+      <li class="li_navbar" style="float:left;"><a href="main.html"><i class="icon fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home </a></li>
+      <li class="li_navbar"><a href="recipe_manage"> Edit Recipes </a></li>
+      <li class="li_navbar"><a href="recipe_manage/?action=show_add_form"> Add Recipes </a></li>
+      <li class="li_navbar"><a href="recipe_display"> View Recipes  </a></li>
+    </ul>
+</section>
+
 <section class="header">
     <h1 class="text-center"> Recipe Box </h1>
     <h2 class="text-center"> A place to store all your recipes </h2>
@@ -30,6 +50,8 @@
     The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
   </h3>
 </section>
+
+<script  src="./main.js"></script>
 
 </body>
 </html>
