@@ -1,0 +1,194 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+*, *:before, *:after  {
+  box-sizing: inherit;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  color: #1e1d1d;
+  background-color: #fbfbfa;
+  font-family: 'Raleway', sans-serif;
+  margin: 0; border: 0;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.text-center {
+  text-align: center !important;
+}
+
+.center-align{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+
+section {
+  margin: 0;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+/* CSS for Navigation bar */
+.navbar{
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+.ul_navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #434937;
+  list-style-type: none;
+  top: 0;
+}
+
+.li_navbar {
+  float: right;
+}
+
+.li_navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li_navbar a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* CSS for Navigation Menu Button */
+.menu{
+  padding-left: 10px;
+  font-size:25px;
+  width: 100%;
+  height: 1.4em;
+  cursor:pointer;
+  color: white;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 525px) {
+  .menu {display: none;}
+}
+
+/* CSS for Image banner */
+@media screen and (max-width: 525px) {
+  .navbar {display: none}
+}
+
+img {
+  width: 90%;
+  height: auto;
+  padding: 5px;
+}
+
+h1 {
+  weight: 700;
+  font-size: 2.5em;
+  margin: .1em 0;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+h3 {
+  weight: 700;
+  font-size: 1.5em;
+  margin: .1em 0;
+}
+h4{
+  font-weight: normal;
+  font-size: 1em;
+  margin-bottom: 3px;
+}
+@media screen and (max-width: 600px) {
+  h1 {font-size: 2em;}
+  h3 {font-size: 1.2em;}
+  h4 {font-weight: normal; font-size: 0.9em;}
+}
+@media screen and (max-width: 375px) {
+  h4 {font-weight: normal; font-size: 0.8em;}
+  .slick-dots li button {  width: 10px!important; height: 10px !important}
+}
+.slick-dots {
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.slick-dots li {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.slick-dots li.slick-active button {
+  background-color: black;
+}
+.slick-dots li button {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: #999;
+  border: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.slick-dots li :hover {
+  background-color: black;
+}
