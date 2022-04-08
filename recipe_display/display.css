@@ -139,7 +139,6 @@ img {
 }
 
 h1 {
-  weight: 700;
   font-size: 2.5em;
   margin: .1em 0;
 }
@@ -148,7 +147,6 @@ h2 {
     font-size: 20px;
 }
 h3 {
-  weight: 700;
   font-size: 1.5em;
   margin: .1em 0;
 }
